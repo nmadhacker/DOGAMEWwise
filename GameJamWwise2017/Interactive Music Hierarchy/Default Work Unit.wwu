@@ -3,29 +3,6 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}" PersistMode="Standalone">
 			<ChildrenList>
-				<MusicSwitchContainer Name="EndMusic" ID="{9A47D693-F049-4056-973A-F9E1B90D412A}" ShortID="590894208">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12371D79-0234-4BA3-8FEA-1305F48EDD07}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
-						</Reference>
-					</ReferenceList>
-					<TransitionList>
-						<MusicTransition Name="Root" ID="{2485D450-83F6-4EB3-8D17-2219D6CE25AE}">
-							<PropertyList>
-								<Property Name="IsFolder" Type="bool" Value="True"/>
-							</PropertyList>
-							<ChildrenList>
-								<MusicTransition Name="Transition" ID="{4E0F7312-CBEA-43F3-93E0-ED99626D51EA}">
-									<TransitionInfo/>
-								</MusicTransition>
-							</ChildrenList>
-							<TransitionInfo/>
-						</MusicTransition>
-					</TransitionList>
-				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="StageMusic" ID="{C28B830A-C798-474D-8285-95957AE58004}" ShortID="979851968">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="50"/>
@@ -80,6 +57,9 @@
 												<AudioFileSource Name="GGJ_4 capas removiéndose lentamente 1-Group" ID="{E23F5E5A-725E-430A-8CE2-F032D2156DAC}" ShortID="224520624">
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 1-Group.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File Platform="Mac" ID="14127979"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -150,6 +130,9 @@
 												<AudioFileSource Name="GGJ_4 capas removiéndose lentamente 3-Xpand!2_x64" ID="{1DCCD9BF-672D-4BB5-A659-629033AC03B8}" ShortID="1053113585">
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 3-Xpand!2_x64.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File Platform="Mac" ID="207050163"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -185,6 +168,9 @@
 												<AudioFileSource Name="GGJ_4 capas removiéndose lentamente 5-Pianoteq 5 STAGE" ID="{D61F6B17-936A-472E-8147-DD956EB01A2B}" ShortID="815015578">
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 5-Pianoteq 5 STAGE.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File Platform="Mac" ID="48919602"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -210,82 +196,6 @@
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
-										<MusicTrack Name="GGJ_4 capas removiéndose lentamente 6-Kontakt 5" ID="{10CF2609-C258-4A35-ADBC-5943D9D4EDC1}" ShortID="568064151">
-											<ExcludedPlatformList>
-												<Platform>Windows</Platform>
-											</ExcludedPlatformList>
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="GGJ_4 capas removiéndose lentamente 6-Kontakt 5" ID="{A63F1A15-482B-4D5A-9DF4-2162306E8280}" ShortID="1942983">
-													<Language>SFX</Language>
-													<AudioFile>GGJ_4 capas removiéndose lentamente 6-Kontakt 5.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{7C0B4300-9BEB-47A4-9C50-8252EEB6F344}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{B5034E48-53A1-48EF-B968-0F310C9DCFAA}">
-													<ClipList>
-														<MusicClip Name="GGJ_4 capas removiéndose lentamente 6-Kontakt 5" ID="{10C0D505-A27F-42E2-AB07-B7328AD6FC60}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="38400"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="GGJ_4 capas removiéndose lentamente 6-Kontakt 5" ID="{A63F1A15-482B-4D5A-9DF4-2162306E8280}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
-										</MusicTrack>
-										<MusicTrack Name="GGJ_4 capas removiéndose lentamente 7-Kontakt 5" ID="{84EB5B8E-195C-4ED0-8636-8E49DE174E05}" ShortID="4823268">
-											<ExcludedPlatformList>
-												<Platform>Windows</Platform>
-											</ExcludedPlatformList>
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="GGJ_4 capas removiéndose lentamente 7-Kontakt 5" ID="{9109FA1A-D9CE-41EB-BEA4-5476C3C93834}" ShortID="157761143">
-													<Language>SFX</Language>
-													<AudioFile>GGJ_4 capas removiéndose lentamente 7-Kontakt 5.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{AACE36AE-4373-4CAE-BD7F-23023514AA90}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{1D23895A-792E-48AA-BCE5-D3F5AD8AC25C}">
-													<ClipList>
-														<MusicClip Name="GGJ_4 capas removiéndose lentamente 7-Kontakt 5" ID="{C1CFA45D-4ABB-4121-9BC8-12EA2535A9A0}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="38400"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="GGJ_4 capas removiéndose lentamente 7-Kontakt 5" ID="{9109FA1A-D9CE-41EB-BEA4-5476C3C93834}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
-										</MusicTrack>
 										<MusicTrack Name="GGJ_4 capas removiéndose lentamente A-ValhallaVintageVerb" ID="{EA25E88B-2208-482E-ABC2-717804592782}" ShortID="74442697">
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -296,6 +206,9 @@
 												<AudioFileSource Name="GGJ_4 capas removiéndose lentamente A-ValhallaVintageVerb" ID="{7F4CD962-F3F9-49F4-AD3E-9BC828B9BDA2}" ShortID="1029615279">
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente A-ValhallaVintageVerb.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File Platform="Mac" ID="416726130"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -331,6 +244,9 @@
 												<AudioFileSource Name="GGJ_4 capas removiéndose lentamente B-Delay" ID="{EC78DA59-1AAA-4880-9BC2-06F6DD07F900}" ShortID="508406744">
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente B-Delay.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File Platform="Mac" ID="423373940"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -351,44 +267,6 @@
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="GGJ_4 capas removiéndose lentamente B-Delay" ID="{EC78DA59-1AAA-4880-9BC2-06F6DD07F900}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
-										</MusicTrack>
-										<MusicTrack Name="GGJ_4 capas removiéndose lentamente Stars" ID="{DF89F15A-553A-4C3A-9C65-35BD03F97CB8}" ShortID="791626457">
-											<ExcludedPlatformList>
-												<Platform>Windows</Platform>
-											</ExcludedPlatformList>
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="GGJ_4 capas removiéndose lentamente Stars" ID="{78F68B34-0528-4E26-A7D0-1852197754F8}" ShortID="871392975">
-													<Language>SFX</Language>
-													<AudioFile>GGJ_4 capas removiéndose lentamente Stars.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{7C74D0AC-0A42-4E4C-99FB-01EF732C9C50}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{6EFDB400-BCFB-4108-97AB-94C5B23DA5BF}">
-													<ClipList>
-														<MusicClip Name="GGJ_4 capas removiéndose lentamente Stars" ID="{930A02F0-32C1-4CFA-8373-5FB4DDA17AFD}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="38400"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="GGJ_4 capas removiéndose lentamente Stars" ID="{78F68B34-0528-4E26-A7D0-1852197754F8}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -472,7 +350,7 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 1-Group.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="224520624"/>
+														<File Platform="Windows" ID="224520624"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -548,7 +426,7 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 3-Xpand!2_x64.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="1053113585"/>
+														<File Platform="Windows" ID="1053113585"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -578,6 +456,7 @@
 										<MusicTrack Name="GGJ_4 capas removiéndose lentamente 5-Pianoteq 5 STAGE" ID="{93B299A1-E8CC-48D1-AAEF-86E7A1BFC32D}" ShortID="88955100">
 											<ExcludedPlatformList>
 												<Platform>Windows</Platform>
+												<Platform>Mac</Platform>
 											</ExcludedPlatformList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -589,7 +468,7 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 5-Pianoteq 5 STAGE.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="815015578"/>
+														<File Platform="Windows" ID="815015578"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -619,6 +498,7 @@
 										<MusicTrack Name="GGJ_4 capas removiéndose lentamente 6-Kontakt 5" ID="{631226B2-2B4C-440F-AF32-6AED518FD378}" ShortID="190394225">
 											<ExcludedPlatformList>
 												<Platform>Windows</Platform>
+												<Platform>Mac</Platform>
 											</ExcludedPlatformList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -630,7 +510,8 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 6-Kontakt 5.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="1942983"/>
+														<File Platform="Mac" ID="158605724"/>
+														<File Platform="Windows" ID="1942983"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -660,6 +541,7 @@
 										<MusicTrack Name="GGJ_4 capas removiéndose lentamente 7-Kontakt 5" ID="{C2EFBE6E-EEAF-49D1-A70D-F73C87C7452D}" ShortID="379572276">
 											<ExcludedPlatformList>
 												<Platform>Windows</Platform>
+												<Platform>Mac</Platform>
 											</ExcludedPlatformList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -671,7 +553,8 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 7-Kontakt 5.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="157761143"/>
+														<File Platform="Mac" ID="706220918"/>
+														<File Platform="Windows" ID="157761143"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -716,7 +599,8 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente A-ValhallaVintageVerb.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="1029615279"/>
+														<File Platform="Mac" ID="416726130"/>
+														<File Platform="Windows" ID="1029615279"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -761,7 +645,7 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente B-Delay.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="508406744"/>
+														<File Platform="Windows" ID="508406744"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -791,6 +675,7 @@
 										<MusicTrack Name="GGJ_4 capas removiéndose lentamente Stars" ID="{F1D640F5-4799-406D-A5B9-D42648F4CB21}" ShortID="962468764">
 											<ExcludedPlatformList>
 												<Platform>Windows</Platform>
+												<Platform>Mac</Platform>
 											</ExcludedPlatformList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -802,7 +687,8 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente Stars.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="871392975"/>
+														<File Platform="Mac" ID="216659824"/>
+														<File Platform="Windows" ID="871392975"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -907,7 +793,8 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 1-Group.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="224520624"/>
+														<File Platform="Mac" ID="14127979"/>
+														<File Platform="Windows" ID="224520624"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -983,7 +870,8 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 3-Xpand!2_x64.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="1053113585"/>
+														<File Platform="Mac" ID="207050163"/>
+														<File Platform="Windows" ID="1053113585"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1021,7 +909,8 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 5-Pianoteq 5 STAGE.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="815015578"/>
+														<File Platform="Mac" ID="48919602"/>
+														<File Platform="Windows" ID="815015578"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1059,7 +948,7 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 6-Kontakt 5.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="1942983"/>
+														<File Platform="Windows" ID="1942983"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1097,7 +986,7 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 7-Kontakt 5.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="157761143"/>
+														<File Platform="Windows" ID="157761143"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1135,7 +1024,7 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente A-ValhallaVintageVerb.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="1029615279"/>
+														<File Platform="Windows" ID="1029615279"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1173,7 +1062,8 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente B-Delay.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="508406744"/>
+														<File Platform="Mac" ID="423373940"/>
+														<File Platform="Windows" ID="508406744"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1211,7 +1101,7 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente Stars.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="871392975"/>
+														<File Platform="Windows" ID="871392975"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1244,7 +1134,7 @@
 										<MusicCue Name="Exit Cue" ID="{0F4E2651-34D5-41C3-B9AF-BE5189B01697}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="38425.1057827927"/>
+												<Property Name="TimeMs" Type="Real64" Value="38400"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -1273,7 +1163,8 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 1-Group.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="224520624"/>
+														<File Platform="Mac" ID="14127979"/>
+														<File Platform="Windows" ID="224520624"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1349,7 +1240,8 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 3-Xpand!2_x64.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="1053113585"/>
+														<File Platform="Mac" ID="207050163"/>
+														<File Platform="Windows" ID="1053113585"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1387,7 +1279,8 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 5-Pianoteq 5 STAGE.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="815015578"/>
+														<File Platform="Mac" ID="48919602"/>
+														<File Platform="Windows" ID="815015578"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1425,7 +1318,8 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente 6-Kontakt 5.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="1942983"/>
+														<File Platform="Mac" ID="158605724"/>
+														<File Platform="Windows" ID="1942983"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1452,47 +1346,6 @@
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
-										<MusicTrack Name="GGJ_4 capas removiéndose lentamente 7-Kontakt 5" ID="{9AE305CC-6198-4E33-A402-61E667666BF9}" ShortID="462731121">
-											<ExcludedPlatformList>
-												<Platform>Windows</Platform>
-											</ExcludedPlatformList>
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="GGJ_4 capas removiéndose lentamente 7-Kontakt 5" ID="{1451BA37-D94B-473D-B420-E231F281FA11}" ShortID="514498559">
-													<Language>SFX</Language>
-													<AudioFile>GGJ_4 capas removiéndose lentamente 7-Kontakt 5.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="157761143"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{F59495DF-C091-44FC-9748-278CDE5CD7D1}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{C55AE07A-97C6-4C60-B534-4DF1B3715F66}">
-													<ClipList>
-														<MusicClip Name="GGJ_4 capas removiéndose lentamente 7-Kontakt 5" ID="{FCA591EE-CADC-496D-A68E-0EA8E334DA49}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="38400"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="GGJ_4 capas removiéndose lentamente 7-Kontakt 5" ID="{1451BA37-D94B-473D-B420-E231F281FA11}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
-										</MusicTrack>
 										<MusicTrack Name="GGJ_4 capas removiéndose lentamente A-ValhallaVintageVerb" ID="{8E3365C0-1B86-4CA3-B2E8-71675F466D4B}" ShortID="782405481">
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -1504,7 +1357,8 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente A-ValhallaVintageVerb.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="1029615279"/>
+														<File Platform="Mac" ID="416726130"/>
+														<File Platform="Windows" ID="1029615279"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1542,7 +1396,8 @@
 													<Language>SFX</Language>
 													<AudioFile>GGJ_4 capas removiéndose lentamente B-Delay.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="508406744"/>
+														<File Platform="Mac" ID="423373940"/>
+														<File Platform="Windows" ID="508406744"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1564,47 +1419,6 @@
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="GGJ_4 capas removiéndose lentamente B-Delay" ID="{1B9955D7-9356-499E-AEE0-3550822BDACA}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
-										</MusicTrack>
-										<MusicTrack Name="GGJ_4 capas removiéndose lentamente Stars" ID="{DEB50DAD-FFD8-4266-9B6C-2A75FE662710}" ShortID="259295004">
-											<ExcludedPlatformList>
-												<Platform>Windows</Platform>
-											</ExcludedPlatformList>
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="GGJ_4 capas removiéndose lentamente Stars" ID="{222A5E5F-7B2C-427D-AF71-81F8A071BA58}" ShortID="770229349">
-													<Language>SFX</Language>
-													<AudioFile>GGJ_4 capas removiéndose lentamente Stars.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="871392975"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{4041C88D-E7D0-43A4-A003-3440816DA353}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{EF4DFFA4-9F03-463C-BF43-958C03DBBBD9}">
-													<ClipList>
-														<MusicClip Name="GGJ_4 capas removiéndose lentamente Stars" ID="{6DCF8CB3-21F8-479F-B4D5-4B6EC7D64749}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="38400"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="GGJ_4 capas removiéndose lentamente Stars" ID="{222A5E5F-7B2C-427D-AF71-81F8A071BA58}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1671,6 +1485,41 @@
 									</PropertyList>
 									<TransitionInfo/>
 								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{A9B9DBB5-A5F0-4A79-8424-21372E6AF9CC}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="2_Checkpoint" ID="{CF92C4E8-45CF-4DA7-B467-5DB42AB18C79}" WorkUnitID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="B" ID="{32C3C2BD-622F-466D-BF26-EDD398928DD6}" WorkUnitID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{9E2C0E17-0BFD-48A7-B50D-A0FFD588DA03}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="3_Checkpoint" ID="{A422A5F7-3E1A-46CE-A9C4-0D2E169B14DA}" WorkUnitID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="2_Checkpoint" ID="{CF92C4E8-45CF-4DA7-B467-5DB42AB18C79}" WorkUnitID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
@@ -1701,14 +1550,6 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="3_Checkpoint" ID="{A422A5F7-3E1A-46CE-A9C4-0D2E169B14DA}" WorkUnitID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="Checkpoint_4" ID="{C206ACFB-3648-4CDA-B290-93AC24634C7A}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="4_Checkpoint" ID="{B3DBD9BE-38C1-47C4-9B30-938D4707F58F}" WorkUnitID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

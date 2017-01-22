@@ -75,6 +75,25 @@
 												<ActiveSource Name="Personaje_salto" ID="{BA20585F-5ADF-46D1-900F-DEF08A7F5DEE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Attack" ID="{5745B277-ECFE-4E85-9F2E-EE6E7ADD16AA}" ShortID="392881298" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12371D79-0234-4BA3-8FEA-1305F48EDD07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Personaje_magia" ID="{29AF3356-A0DA-4CEB-AA52-79F806F34490}" ShortID="733869413">
+													<Language>SFX</Language>
+													<AudioFile>Personaje_magia.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Personaje_magia" ID="{29AF3356-A0DA-4CEB-AA52-79F806F34490}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="III) NPC" ID="{29A5D7B0-1612-4237-B924-AA986159844F}" ShortID="667828488">

@@ -23,11 +23,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="PlayEndMusic" ID="{D5B76CAC-CAEE-4CC7-A30B-1E4637F33E33}">
-							<ChildrenList>
-								<Action Name="Stop" ID="{4A934262-9E5E-4869-8540-0150D1455730}" ShortID="540191275" Type="Stop" Scope="One" Global="false"/>
-							</ChildrenList>
-						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SFX" ID="{2B14BE58-3685-4E79-A82F-D06EF4E5020C}" ShortID="352195495">
@@ -63,6 +58,17 @@
 											<ElementList>
 												<Element ID="{6B953B67-46D4-4FB9-A020-A75D27CA4DDA}" Global="false">
 													<ObjectRef Name="Personaje_muerte" ID="{17B84029-D17B-4AEA-A34E-79E823515C13}" WorkUnitID="{386294C3-4422-47ED-8E15-B25BA4528AAC}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PlayHeroAttack" ID="{F7400D6B-A5A7-40BF-A412-A2738E2D252D}">
+									<ChildrenList>
+										<Action Name="Play" ID="{C57C6BDF-A40F-4745-BCF8-4B034E143B85}" ShortID="358411302" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{DEBF2127-1A54-4E25-ADC2-8B41973F5E5C}" Global="false">
+													<ObjectRef Name="Attack" ID="{5745B277-ECFE-4E85-9F2E-EE6E7ADD16AA}" WorkUnitID="{386294C3-4422-47ED-8E15-B25BA4528AAC}"/>
 												</Element>
 											</ElementList>
 										</Action>

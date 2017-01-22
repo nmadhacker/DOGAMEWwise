@@ -16,7 +16,6 @@
 						<State Name="Checkpoint_1" ID="{BC6230C9-E9E3-4FD7-849B-DBCD3C9C212B}"/>
 						<State Name="Checkpoint_2" ID="{4AE62481-5FF3-4D25-A9A1-420CD7B8E0E0}"/>
 						<State Name="Checkpoint_3" ID="{E8DFEC03-2582-44A0-B614-F1C97A485F16}"/>
-						<State Name="Checkpoint_4" ID="{C206ACFB-3648-4CDA-B290-93AC24634C7A}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

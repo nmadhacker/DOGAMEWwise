@@ -53,7 +53,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Checkpoint_2" ID="{4AE62481-5FF3-4D25-A9A1-420CD7B8E0E0}"/>
+						<CurrentStateRef Name="Checkpoint_3" ID="{E8DFEC03-2582-44A0-B614-F1C97A485F16}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="c" ID="{0CD5F509-E97E-4D56-A0FB-3954C9522AE9}"/>
