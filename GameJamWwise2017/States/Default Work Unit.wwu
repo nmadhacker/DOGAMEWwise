@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{4922CBBF-DEC7-4574-AD7E-6BFAB1A03878}" SchemaVersion="72">
+<WwiseDocument Type="WorkUnit" ID="{A5B1206F-ECA7-4CBA-95BA-5F03ED21849E}" SchemaVersion="72">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{4922CBBF-DEC7-4574-AD7E-6BFAB1A03878}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A5B1206F-ECA7-4CBA-95BA-5F03ED21849E}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Environment" ID="{7204C18B-8436-4A13-AA04-B91C1C47EB68}">
+					<ChildrenList>
+						<State Name="None" ID="{F0E7A684-2124-4E03-BD6A-92A845817275}"/>
+						<State Name="Catacumbas" ID="{9AB337DC-36E5-49CC-9174-39826A020D81}"/>
+						<State Name="Mar" ID="{5C465255-2EB6-47D1-9FC9-1060B4A99C14}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Checkpoints" ID="{BDC65CD7-0964-4C8F-8DB4-039B064504E8}">
+					<ChildrenList>
+						<State Name="None" ID="{8152B84C-FFFD-4C27-9425-278C11C80171}"/>
+						<State Name="Checkpoint_1" ID="{BC6230C9-E9E3-4FD7-849B-DBCD3C9C212B}"/>
+						<State Name="Checkpoint_2" ID="{4AE62481-5FF3-4D25-A9A1-420CD7B8E0E0}"/>
+						<State Name="Checkpoint_3" ID="{E8DFEC03-2582-44A0-B614-F1C97A485F16}"/>
+						<State Name="Checkpoint_4" ID="{C206ACFB-3648-4CDA-B290-93AC24634C7A}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

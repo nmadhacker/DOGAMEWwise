@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{7D3AB526-25C4-4085-BF86-1443C95AB3A9}" SchemaVersion="72">
+<WwiseDocument Type="WorkUnit" ID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}" SchemaVersion="72">
 	<Busses>
-		<WorkUnit Name="Default Work Unit" ID="{7D3AB526-25C4-4085-BF86-1443C95AB3A9}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}" PersistMode="Standalone">
 			<ChildrenList>
-				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ChildrenList>
+						<Bus Name="SFX" ID="{A279E764-501E-4A4E-BD85-671D0CBE4993}"/>
+						<Bus Name="MUSIC" ID="{447338BF-B337-4AF5-9EDD-5496250E2BB2}"/>
+					</ChildrenList>
+				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
 			</ChildrenList>

@@ -49,6 +49,9 @@
 							<PropertyList>
 								<Property Name="DataFileName" Type="string" Value="/boxmodel.wav"/>
 							</PropertyList>
+							<ConvertedFileIDList>
+								<File ID="161915250"/>
+							</ConvertedFileIDList>
 						</PluginMediaSource>
 					</ChildrenList>
 				</Effect>
@@ -64,7 +67,7 @@
 								<Property Name="DataFileName" Type="string" Value="/boxmodel.wav"/>
 							</PropertyList>
 							<ConvertedFileIDList>
-								<File ID="211286947"/>
+								<File ID="335444096"/>
 							</ConvertedFileIDList>
 						</PluginMediaSource>
 					</ChildrenList>
@@ -122,9 +125,6 @@
 							<PropertyList>
 								<Property Name="DataFileName" Type="string" Value="/boxmodel.wav"/>
 							</PropertyList>
-							<ConvertedFileIDList>
-								<File Platform="Mac" ID="161915250"/>
-							</ConvertedFileIDList>
 						</PluginMediaSource>
 					</ChildrenList>
 				</Effect>
@@ -140,6 +140,9 @@
 							<PropertyList>
 								<Property Name="DataFileName" Type="string" Value="/boxmodel.wav"/>
 							</PropertyList>
+							<ConvertedFileIDList>
+								<File ID="818534887"/>
+							</ConvertedFileIDList>
 						</PluginMediaSource>
 					</ChildrenList>
 				</Effect>
@@ -154,10 +157,6 @@
 							<PropertyList>
 								<Property Name="DataFileName" Type="string" Value="/boxmodel.wav"/>
 							</PropertyList>
-							<ConvertedFileIDList>
-								<File Platform="Mac" ID="459775695"/>
-								<File Platform="Windows" ID="161915250"/>
-							</ConvertedFileIDList>
 						</PluginMediaSource>
 					</ChildrenList>
 				</Effect>

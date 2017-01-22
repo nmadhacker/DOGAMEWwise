@@ -1,6 +1,617 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{CDC5E7A8-EB1E-47B1-BC6F-6F49C5452E5B}" SchemaVersion="72">
+<WwiseDocument Type="WorkUnit" ID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}" SchemaVersion="72">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{CDC5E7A8-EB1E-47B1-BC6F-6F49C5452E5B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="EndMusic" ID="{9A47D693-F049-4056-973A-F9E1B90D412A}" ShortID="590894208">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12371D79-0234-4BA3-8FEA-1305F48EDD07}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+						</Reference>
+					</ReferenceList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{2485D450-83F6-4EB3-8D17-2219D6CE25AE}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{4E0F7312-CBEA-43F3-93E0-ED99626D51EA}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="StageMusic" ID="{C28B830A-C798-474D-8285-95957AE58004}" ShortID="979851968">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="50"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12371D79-0234-4BA3-8FEA-1305F48EDD07}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MUSIC" ID="{447338BF-B337-4AF5-9EDD-5496250E2BB2}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="4_Checkpoint" ID="{B3DBD9BE-38C1-47C4-9B30-938D4707F58F}" ShortID="988687353">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="50"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12371D79-0234-4BA3-8FEA-1305F48EDD07}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MUSIC" ID="{447338BF-B337-4AF5-9EDD-5496250E2BB2}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="GGJ_4 capas removiéndose lentamente" ID="{7D0C901B-E3E5-4351-8257-D6763E2EEB87}" ShortID="637715113">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="115200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12371D79-0234-4BA3-8FEA-1305F48EDD07}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="GGJ_4 capas removiéndose lentamente" ID="{1CA9A269-4520-4B65-A828-CAA508BE992C}" ShortID="628566441">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GGJ_4 capas removiéndose lentamente" ID="{B87FD910-B4DE-485A-AD0B-A54EA4BC0800}" ShortID="218015046">
+													<Language>SFX</Language>
+													<AudioFile>GGJ_4 capas removiéndose lentamente.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1071128470"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{FC3E08AA-150B-4D2B-9966-D1BF695BA884}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{4E3408A5-BD45-4DD6-B8E7-AF0E5870E0C6}">
+													<ClipList>
+														<MusicClip Name="GGJ_4 capas removiéndose lentamente" ID="{D729039C-1227-4EC7-AB8D-494604BD6FBD}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="115200"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GGJ_4 capas removiéndose lentamente" ID="{B87FD910-B4DE-485A-AD0B-A54EA4BC0800}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{129CEBCB-3591-4F80-BEBF-535FAE60C34A}"/>
+										<MusicCue Name="Exit Cue" ID="{0B5CA86D-1265-43DF-8633-E556D77CB5D2}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="115200"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{E66074DB-E482-4F0B-9A5D-F68F91ED9378}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{2F4CC384-BABF-4E33-979A-E56AADB791CC}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{5FF238B0-EA33-4EAB-A7A1-C878C4B47A54}" ShortID="467144879">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{538C623F-508C-4F15-BFBF-E3E33E91D04B}" ShortID="131951870">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="GGJ_4 capas removiéndose lentamente" ID="{7D0C901B-E3E5-4351-8257-D6763E2EEB87}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="2_Checkpoint" ID="{CF92C4E8-45CF-4DA7-B467-5DB42AB18C79}" ShortID="718610702">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="50"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12371D79-0234-4BA3-8FEA-1305F48EDD07}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MUSIC" ID="{447338BF-B337-4AF5-9EDD-5496250E2BB2}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="GGJ_4 capas removiéndose lentamente" ID="{59CFAC27-D00A-4F38-8873-BBFFA4CEF9DC}" ShortID="941742019">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="115200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12371D79-0234-4BA3-8FEA-1305F48EDD07}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="GGJ_4 capas removiéndose lentamente" ID="{3D04C0E6-F6BD-43EC-9FD6-A4F87DE8E74D}" ShortID="201808978">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GGJ_4 capas removiéndose lentamente" ID="{C702BC5E-41F0-4C5F-886F-C465AD7724EA}" ShortID="219709013">
+													<Language>SFX</Language>
+													<AudioFile>GGJ_4 capas removiéndose lentamente.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1071128470"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{9ED6339B-CF2C-490A-92DC-A747F6A03115}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{FB583B65-159D-46C1-A140-0E4AE68EADC0}">
+													<ClipList>
+														<MusicClip Name="GGJ_4 capas removiéndose lentamente" ID="{A43E1488-8D6D-4A2F-8B06-3DA37E3526A7}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="115200"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GGJ_4 capas removiéndose lentamente" ID="{C702BC5E-41F0-4C5F-886F-C465AD7724EA}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{DCD485BD-B30A-4E05-BD8C-CB7E95A04A19}"/>
+										<MusicCue Name="Exit Cue" ID="{6D713744-55C1-4878-9E6C-B203440842D5}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="115200"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{9BF2004E-DD6F-415F-AF63-0993476D9B23}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{CDC6EBB1-7B1A-4CE8-83CC-6CFEB77CC376}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{962A3E84-CF5B-4B75-A000-D29D9F1ABF40}" ShortID="684629819">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{A7FE4E20-DB29-4281-9A4D-4556150E93CC}" ShortID="547317830">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="GGJ_4 capas removiéndose lentamente" ID="{59CFAC27-D00A-4F38-8873-BBFFA4CEF9DC}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="3_Checkpoint" ID="{A422A5F7-3E1A-46CE-A9C4-0D2E169B14DA}" ShortID="280948531">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="50"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12371D79-0234-4BA3-8FEA-1305F48EDD07}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MUSIC" ID="{447338BF-B337-4AF5-9EDD-5496250E2BB2}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="GGJ_4 capas removiéndose lentamente" ID="{16E294BD-6B5B-45DE-9A8D-FA0964F434B3}" ShortID="34576301">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="115200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12371D79-0234-4BA3-8FEA-1305F48EDD07}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="GGJ_4 capas removiéndose lentamente" ID="{CFD1D37B-F53F-4AFC-B87D-294BD5B11EF4}" ShortID="886372326">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GGJ_4 capas removiéndose lentamente" ID="{B75A37CF-98A6-4D76-AF0F-2A042678B969}" ShortID="432262453">
+													<Language>SFX</Language>
+													<AudioFile>GGJ_4 capas removiéndose lentamente.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1071128470"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{78087191-1C5B-4A3D-93A1-CAB78C2981D7}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{2D87C8F6-C6FF-44DF-A261-0A32251561B5}">
+													<ClipList>
+														<MusicClip Name="GGJ_4 capas removiéndose lentamente" ID="{B79A2441-5ED0-4C20-9BD1-2B4422C286DF}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="115200"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GGJ_4 capas removiéndose lentamente" ID="{B75A37CF-98A6-4D76-AF0F-2A042678B969}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{C9685F90-1EFD-4FB5-B139-A0581C0D88DB}"/>
+										<MusicCue Name="Exit Cue" ID="{CEDD7276-D388-42FE-A937-AE17B8AEE556}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="115200"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{B6E12DF7-A847-4375-8C19-4E72DD245C8A}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{A8E4D1C7-E718-4FFC-99E5-83EED55FCC5F}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{46D3FE5E-6ED3-4669-AAD8-167A70FD497F}" ShortID="351395046">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{D775BFA5-EC5C-4397-9535-C9F024C73274}" ShortID="617743443">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="GGJ_4 capas removiéndose lentamente" ID="{16E294BD-6B5B-45DE-9A8D-FA0964F434B3}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="1_Checkpoint" ID="{54C51949-29EA-4AAE-A86C-5F9F4E1CB749}" ShortID="873591665">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="50"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12371D79-0234-4BA3-8FEA-1305F48EDD07}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MUSIC" ID="{447338BF-B337-4AF5-9EDD-5496250E2BB2}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="GGJ_4 capas removiéndose lentamente" ID="{799BCCE6-468B-45B0-9F29-E547E8CF3B2C}" ShortID="141666329">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="117801.229487375"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12371D79-0234-4BA3-8FEA-1305F48EDD07}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="GGJ_4 capas removiéndose lentamente" ID="{F7B70DFB-9B74-4582-9C56-AEBF3C0D5C9C}" ShortID="537962407">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GGJ_4 capas removiéndose lentamente" ID="{75A116E5-A0F7-4D4E-B4F2-979F4E04BCE5}" ShortID="117961858">
+													<Language>SFX</Language>
+													<AudioFile>GGJ_4 capas removiéndose lentamente.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1071128470"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{529CA670-7449-4BAA-B9A5-A91A20B05BBC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{1F5FE31A-41F2-490A-939B-88658D68D073}">
+													<ClipList>
+														<MusicClip Name="GGJ_4 capas removiéndose lentamente" ID="{D329525D-C0FF-4AE8-B037-2991F370B9F2}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="38400"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GGJ_4 capas removiéndose lentamente" ID="{75A116E5-A0F7-4D4E-B4F2-979F4E04BCE5}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{B85306B8-DC3D-4E2B-8E0F-B01BFBB48546}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>38.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{4ECF55BD-0AB2-4540-84A3-B1570F726126}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>38.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{8D6D3EEF-8848-48C2-BFB5-57030834FFE7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>38.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{AA0CE97B-828A-4240-AA55-69DF1946CDFE}"/>
+										<MusicCue Name="Exit Cue" ID="{85E46793-5F36-4233-A334-7EA0715D443A}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="38400"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="" ID="{1FA1FF5F-F3F2-4CB2-9368-F6EAFCE9271F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="19200"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{FFD1C3EE-EE55-428D-84E3-564CDCFF01DA}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{396CE52C-3545-4960-B062-2167C39F1B9D}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{AF39C10A-B414-4D0A-97C7-17B11BA2823F}" ShortID="563344825">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{EF06CC3F-898C-4943-9795-BF412918A5A2}" ShortID="431235607">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="GGJ_4 capas removiéndose lentamente" ID="{799BCCE6-468B-45B0-9F29-E547E8CF3B2C}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{940391DB-2E79-4C02-AE78-13CDE640E627}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{C4B9FE69-1DC7-4435-A6A1-4136373CF24A}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Checkpoints" ID="{BDC65CD7-0964-4C8F-8DB4-039B064504E8}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Checkpoint_1" ID="{BC6230C9-E9E3-4FD7-849B-DBCD3C9C212B}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="1_Checkpoint" ID="{54C51949-29EA-4AAE-A86C-5F9F4E1CB749}" WorkUnitID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Checkpoint_2" ID="{4AE62481-5FF3-4D25-A9A1-420CD7B8E0E0}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="2_Checkpoint" ID="{CF92C4E8-45CF-4DA7-B467-5DB42AB18C79}" WorkUnitID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Checkpoint_3" ID="{E8DFEC03-2582-44A0-B614-F1C97A485F16}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="3_Checkpoint" ID="{A422A5F7-3E1A-46CE-A9C4-0D2E169B14DA}" WorkUnitID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Checkpoint_4" ID="{C206ACFB-3648-4CDA-B290-93AC24634C7A}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="4_Checkpoint" ID="{B3DBD9BE-38C1-47C4-9B30-938D4707F58F}" WorkUnitID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Checkpoints" ID="{BDC65CD7-0964-4C8F-8DB4-039B064504E8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<NoObject Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="MenuMusic" ID="{9724E2E7-86DD-4EDE-B5BD-B32E2A6CDCAB}" ShortID="151812312">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12371D79-0234-4BA3-8FEA-1305F48EDD07}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+						</Reference>
+					</ReferenceList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{B665F888-770A-4761-A93C-2DEE2225A785}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{3BE70ED7-1F4C-4EBC-BE82-2C6F0DE4F66C}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Checkpoints" ID="{BDC65CD7-0964-4C8F-8DB4-039B064504E8}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Checkpoint_1" ID="{BC6230C9-E9E3-4FD7-849B-DBCD3C9C212B}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="1_Checkpoint" ID="{978EB6F8-E8D5-4148-A0DE-F81CDE874FFB}" WorkUnitID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

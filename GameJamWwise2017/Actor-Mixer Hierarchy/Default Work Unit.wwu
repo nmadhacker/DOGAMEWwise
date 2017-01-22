@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{91C77A46-E48A-43FB-849A-2D10B45ED55A}" SchemaVersion="72">
+<WwiseDocument Type="WorkUnit" ID="{386294C3-4422-47ED-8E15-B25BA4528AAC}" SchemaVersion="72">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{91C77A46-E48A-43FB-849A-2D10B45ED55A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{386294C3-4422-47ED-8E15-B25BA4528AAC}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="SFX" ID="{92D47F92-9A8D-4895-A259-780BC920E7C0}" ShortID="35441175">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12371D79-0234-4BA3-8FEA-1305F48EDD07}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{A279E764-501E-4A4E-BD85-671D0CBE4993}" WorkUnitID="{3D2E5DB9-2B5F-4D88-B5B0-BC4D45CA5C50}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="SFX" ID="{A6FA53E4-BC23-49F5-862B-7905578B21B1}" ShortID="643904102">
+							<ChildrenList>
+								<Folder Name="I) GENERAL" ID="{D2059B78-BE98-4545-9D29-2068B11BFB66}" ShortID="239010945"/>
+								<Folder Name="II) PERSONAJE" ID="{8B6F3C05-46F7-4E2C-8780-63518D486E09}" ShortID="868307252"/>
+								<Folder Name="III) NPC" ID="{29A5D7B0-1612-4237-B924-AA986159844F}" ShortID="667828488"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
