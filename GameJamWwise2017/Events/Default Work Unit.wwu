@@ -14,6 +14,13 @@
 										</Element>
 									</ElementList>
 								</Action>
+								<Action Name="Play" ID="{7838AECD-63D8-41FC-9333-2BF4E50B4C11}" ShortID="634708035" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{418B8FC5-3B45-422E-9057-93222A4599AD}" Global="false">
+											<ObjectRef Name="StageDarkAmbience" ID="{B66D5A75-5D19-4ADC-BE5C-F736D134F97D}" WorkUnitID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}"/>
+										</Element>
+									</ElementList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="PlayEndMusic" ID="{D5B76CAC-CAEE-4CC7-A30B-1E4637F33E33}">
@@ -26,8 +33,80 @@
 				<Folder Name="SFX" ID="{2B14BE58-3685-4E79-A82F-D06EF4E5020C}" ShortID="352195495">
 					<ChildrenList>
 						<Folder Name="I) General" ID="{A5E97951-2B54-4472-B159-0F52B35DA113}" ShortID="163705072"/>
-						<Folder Name="II) PERSONAJE" ID="{7A378BD4-9FE0-4532-8B97-C1DFC9BCCD95}" ShortID="290444464"/>
-						<Folder Name="III) NPC" ID="{FE02E41E-98FA-401A-B880-FD583CEEF8EF}" ShortID="498318666"/>
+						<Folder Name="II) PERSONAJE" ID="{7A378BD4-9FE0-4532-8B97-C1DFC9BCCD95}" ShortID="290444464">
+							<ChildrenList>
+								<Event Name="PlayHeroJump" ID="{C07E2624-29D8-4C35-B9E6-54E801B6EF71}">
+									<ChildrenList>
+										<Action Name="Play" ID="{B1FEEDA1-68C9-4A3B-8CAD-EC48CF79592D}" ShortID="985826517" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{019EEC9A-9758-451D-9D38-A2A15A1B5312}" Global="false">
+													<ObjectRef Name="Personaje_salto" ID="{2A813B0A-29D5-4847-BAB3-B5DE09D7505B}" WorkUnitID="{386294C3-4422-47ED-8E15-B25BA4528AAC}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PlayHeroOnFloor" ID="{1E36C724-FCFA-4C7B-9296-67CBD573C740}">
+									<ChildrenList>
+										<Action Name="Play" ID="{FCC5578C-4BE7-4DB3-8040-B3B51C716FEB}" ShortID="44447130" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{E5B03B8F-BE0C-4A94-90BF-88066EB50DC4}" Global="false">
+													<ObjectRef Name="Personaje_Caída salto" ID="{80AD9EE5-AE7A-4836-92AB-77E9DD35DE53}" WorkUnitID="{386294C3-4422-47ED-8E15-B25BA4528AAC}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PlayHeroDead" ID="{937616CC-B168-4466-9D94-D28248F2C3FB}">
+									<ChildrenList>
+										<Action Name="Play" ID="{2430B829-C2FF-4936-A853-0C49F6DBA4DC}" ShortID="168224990" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{6B953B67-46D4-4FB9-A020-A75D27CA4DDA}" Global="false">
+													<ObjectRef Name="Personaje_muerte" ID="{17B84029-D17B-4AEA-A34E-79E823515C13}" WorkUnitID="{386294C3-4422-47ED-8E15-B25BA4528AAC}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="III) NPC" ID="{FE02E41E-98FA-401A-B880-FD583CEEF8EF}" ShortID="498318666">
+							<ChildrenList>
+								<Event Name="PlayEnemyMove" ID="{1FA2D73D-1EC4-490D-AC56-3447C16C2ADB}">
+									<ChildrenList>
+										<Action Name="Play" ID="{75C70395-F452-483B-B90E-484042B5C43C}" ShortID="761394050" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{BF6069E6-FE85-4A12-84B5-EE9F4A2BC606}" Global="false">
+													<ObjectRef Name="EnemyMovement" ID="{7BA29A01-A41A-4722-81A0-110D7B59DE9D}" WorkUnitID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PlayEnemyAttack" ID="{F8920B66-DF5B-4A00-9840-CCEC5DD7412E}">
+									<ChildrenList>
+										<Action Name="Play" ID="{AA402FF7-2639-42F1-846A-C6A5211C5BE7}" ShortID="468185014" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{03BE9F9A-E650-4ADB-8EED-0EA71F8AA856}" Global="false">
+													<ObjectRef Name="Attack" ID="{923DEA95-9F7C-467A-9476-4AA296646C01}" WorkUnitID="{386294C3-4422-47ED-8E15-B25BA4528AAC}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="StopEnemyMove" ID="{9F32EB52-2F88-488C-B503-9D7D0EBD8D64}">
+									<ChildrenList>
+										<Action Name="Stop" ID="{7C309FAA-66B1-4D9A-90C3-810F1ED50159}" ShortID="974378857" Type="Stop" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{F557E562-62BF-4AB1-A02C-65520BF277F8}" Global="false">
+													<ObjectRef Name="EnemyMovement" ID="{7BA29A01-A41A-4722-81A0-110D7B59DE9D}" WorkUnitID="{B607D5A3-B09B-43EF-AD71-3EFB6FBDA208}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

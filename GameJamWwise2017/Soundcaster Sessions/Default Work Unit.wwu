@@ -4,6 +4,12 @@
 		<WorkUnit Name="Default Work Unit" ID="{0FAB590E-C172-4231-92EB-42B44E380C3A}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="New Soundcaster Session" ID="{32D3899F-ED4C-4A25-88C9-97D779369C21}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayStartMusic" ID="{554ADF02-8B2E-4E41-B361-A142265F6412}" WorkUnitID="{5A84E74E-9458-4C16-BF3B-FF4BBAE5D3DA}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
@@ -47,7 +53,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Checkpoint_1" ID="{BC6230C9-E9E3-4FD7-849B-DBCD3C9C212B}"/>
+						<CurrentStateRef Name="Checkpoint_2" ID="{4AE62481-5FF3-4D25-A9A1-420CD7B8E0E0}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="c" ID="{0CD5F509-E97E-4D56-A0FB-3954C9522AE9}"/>
